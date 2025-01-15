@@ -6,7 +6,7 @@ from langchain.prompts import PromptTemplate
 from langchain import AgentExecutor , create_sql_agent
 from langchain.tools import tool 
 
-openai.api_key = "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"
+openai.api_key = "aqCZPJw4Avd_E_FthdWUR0T3BlbkFJt0oOCA51k1b24CSU0h58Xx_gjfpCxta1JxvMeMyOEjMVtXxmlKJwJbIARqq7gCqGFeP7XTRaMA"
 
 ml_prompt = PromptTemplate(
     input_variables=[task_description],
