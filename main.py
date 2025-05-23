@@ -1,7 +1,7 @@
 import os 
 import openai
 import streamlit as st
-from langchain import openAI,LLMChain
+from langchain import openai,LLMChain
 from langchain.prompts import PromptTemplate
 from langchain import AgentExecutor , create_sql_agent
 from langchain.tools import tool 
