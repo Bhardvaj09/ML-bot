@@ -1,4 +1,18 @@
-ent variable for LangChain
+import os 
+import openai
+import streamlit as st
+from langchain_openai import OpenAI
+from langchain.chains import LLMChain
+from langchain.prompts import PromptTemplate
+from langchain.agents import AgentExecutor, create_react_agent
+from langchain.tools import tool
+from langchain.agents import Tool
+from langchain import hub
+
+# Set OpenAI API key
+openai.api_key = "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"
+
+# Set environment variable for LangChain
 os.environ["OPENAI_API_KEY"] = "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"
 
 # Create ML prompt template
